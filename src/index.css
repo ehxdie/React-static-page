@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
+  background-color: antiquewhite;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.App{
+    width: 550px;
+    height: 853px;
+    background-color: whitesmoke;
+    
+
+}
+/*Navbar*/
+.logo{
+    width: 82.02px;
+    height: 25.35px;
+    left: 30px;
+    top: 22px;
+    margin: 22px 437px 22px 30px ;   
+} 
+
+/*Hero*/
+.Hero{
+  box-shadow: 0 -2px 5px -5px;
+}
+.Hero-image{
+    width: 395.91px;
+    height: 232px;
+    left: 73px;
+    top: 99px;
+    margin-top: 29px;
+    margin-left: 73px;
+    margin-right: 80px;
+}
+.Hero-title {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 110%;
+  color: #000000;
+  margin: 30px 167px 0px 36px;
+}
+
+.Hero-content {
+  margin: 16px 194px 0px 36px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 110%;
+}
+
+/*Card*/
+.Card{
+  display: inline-flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-top: 48px;
+  margin-bottom: 97px;
+  position: relative;
+}
+.gray{
+  color: #918E9B;
+}
+.p1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 110%;
+
+}
+.p2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 110%;
+}
+.star-image{
+    width: 14px;
+    height: 14px;
+    left: 36px;
+    top: 765px;
+}
+.Card1-image{
+      width: 176px;
+      height: 235px;
+      left: 37px;
+      top: 521px;
+      margin-left: 37px;
+}
+.Card1-stats{
+  margin-left: 37px;
+  font-size: 12px;
+}
+.card-badge{
+  position: absolute;
+  top: 5px;
+  left: 6px;
+  background-color: white;
+  padding: 5px 7px;
+  border-radius: 2px;
+  font-weight: bold;
+  margin-left: 37px;
+  font-size: 12px;
+}
